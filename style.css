@@ -14,9 +14,6 @@ ul {
     text-decoration: none;
 
     }
-  li {
-    float: right;
-    }
 
   li a {
     display: block;
@@ -34,4 +31,8 @@ ul {
       align-items: center;
       display: flex;
       border-radius: 30px;
+    }
+    .blu{
+    display: flex; 
+      width: 100px;
     }
