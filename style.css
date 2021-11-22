@@ -1,38 +1,41 @@
-ul {
-    display: block;
-    height: 300px;
+ul{
+    display: flex;
+    height: 400px;
     list-style-type: none;
     margin: 20px;
     padding: 50px 80px 80px 80px ;
     background-color: blue;
-    }
-    .SnOw{
-    display: block;
-    color: black;
-    text-align: center;
-    align-items: center;
-    text-decoration: none;
+  }
 
-    }
-
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
-    padding:10px 30px;
-    text-decoration: none;
+    padding:10px 20px;
+    text-decoration: none;;
     }
-
-   button{
-      float: right;
-      padding: 20px; 
-      width: 100px;
-      height: 30px;
-      align-items: center;
-      display: flex;
-      border-radius: 30px;
-    }
-    .blu{
+button{
+    padding: 20px; 
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+        }
+.blu{
     display: flex; 
-      width: 100px;
+    width: 100px;
+    }
+div button{
+    width: 200px;
+    height: 50px;
+    display: block;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+            }
+.next{
+  display: block;
+  background-color: blue;
+  color: white;
     }
